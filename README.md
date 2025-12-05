@@ -1,94 +1,46 @@
-#🎬 Netflix Movies & TV Shows EDA Project
-##📌 Objective
+🍿 Netflix Movies & TV Shows EDA Project
 
-Perform Exploratory Data Analysis (EDA) on the Netflix dataset to understand:
+📌 Objective
 
-Distribution of Movies vs TV Shows
+Perform an in-depth Exploratory Data Analysis (EDA) on the Netflix dataset to uncover insights about:
+ - Content trends across years
+ - Distribution of Movies vs. TV Shows
+ - Most common genres, directors, and countries
+ - Patterns in release years, ratings, and durations
 
-Content trends across countries
+📊 Dataset
 
-Ratings and maturity classifications
+Dataset used: data/raw/netflix_titles.csv
 
-Release year patterns
+Contains details about Netflix Movies and TV Shows including:
 
-Genre/category insights
+Title, type (Movie/TV Show)
+Director, cast
+Country
+Release year & added date
+Rating
+Duration
+Listed genres
 
-Duration trends for movies & series
+🛠️ Libraries Used:
 
-##📊 Dataset
+Python
+NumPy
+Pandas
+Matplotlib
+Seaborn
+Jupyter Notebook 
 
-Dataset used: netflix.csv
+📈 Key Insights (Summary)
 
-Contains metadata of Netflix’s global catalog including:
+  - Netflix has more Movies than TV Shows, showing a movie-focused catalog 🎬
+  - Content production peaked between 2015–2020, matching global streaming growth 📅
+  - USA, India, and UK produce the most Netflix content 🌍
+  - Documentaries, Dramas, and Comedies are the most common genres 🎭
+  - TV-MA and TV-14 are the most frequent ratings, indicating mature-audience trends 🔞
+  - Most movies are 90–110 minutes long, following standard feature-film length ⏳
+  - TV Shows mainly have 1 season, indicating many limited-series productions 📺
 
-Title, type, country, cast, director
 
-Ratings & genres
 
-Release years
 
-Duration of movies and TV shows
-
-##🧠 Steps Performed
-
-1️⃣ Loaded the dataset & explored structure
-
-2️⃣ Cleaned data:
-
-Handled missing values
-
-Parsed date_added column
-
-Standardized duration fields
-
-3️⃣ Performed detailed analysis on:
-
-Movie vs TV Show proportion
-
-Country-wise content production
-
-Rating distribution (TV-MA, PG-13, etc.)
-
-Trend of releases by year
-
-Genre/category frequency
-
-Duration insights for movies & seasons for TV shows
-
-4️⃣ Created meaningful visualizations using:
-
-Bar charts
-
-Count plots
-
-Pie charts
-
-Trend line charts
-
-Heatmaps
-
-5️⃣ Final insights summarized in the notebook (netflix.ipynb)
-
-##🛠️ Libraries Used
-
-Pandas – Data cleaning & manipulation
-
-NumPy – Numerical operations
-
-Matplotlib & Seaborn – Visualizations
-
-Jupyter Notebook – Interactive analysis
-
-##📈 Key Insights (Summary)
-
-Netflix hosts more Movies than TV Shows globally 🎥
-
-United States & India appear as top content producers 🌍
-
-TV-MA is the most common maturity rating 🔞
-
-Content releases show a rising trend post 2015 📅
-
-Dramas, International Movies, and Comedies dominate genres 🎭
-
-Movies often fall in the 80–120 min duration range ⏱️
